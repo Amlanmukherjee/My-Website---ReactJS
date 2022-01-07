@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather:wght@300&display=swap');
+
+body {
+
+    background-attachment: fixed;
+    color: #000;
+    font-family: sans-serif;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to right bottom, #ffcc29, #ffcc29);
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+/* 
+.app {
+    background-image: url('./assets/felipe-correia-Z3r7p3DqXeM-unsplash.jpg');
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+@media only screen and (max-width: 991px) {
+    .app {
+
+        background-image: url('./assets/felipe.jpg');
+        min-height: 100%;
+        min-width: 100%;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+  }
+
+  
+  /* Large devices (laptops/desktops, 1024px and up) */
+  @media only screen and (min-width: 991px) {
+    .app {
+        background-image: url('./assets/felipe-correia-Z3r7p3DqXeM-unsplash.jpg');
+        min-height: 100%;
+        min-width: 100%;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+  }
+
+.app__container {
+    
+  margin-top: 30px;
+  margin-bottom: auto;
+  
+}
+
+@media only screen and (max-width: 1280px) {
+    .app__container {
+    
+        margin-top: 30px;
+        margin-bottom: auto;
+        zoom: 90%;
+        
+      }
+}
+
+
+
+/* @media only screen and (min-width: 1024px) {
+    .app__row {
+        height: 86vh;
+        
+        
+    }
+} 
+*/
+
+.sidebar__social-icons {
+    padding-left: 10px;
+}
+
+
+.app__main-content {
+    background-color: #ffffff;
+    background-image: url('./assets/backgs/narcissus-yellow-flower-by-Vexels.svg');
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px  rgba(138, 138, 138, 0.644);
+}
+
+.about__intro {
+    font-size: 240px;
+}
+
+/* list */
+.ulx {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .ulx:before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    background: #979797;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    height: calc(100% - 40px);
+  }
+  
+  .lix {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 15px;
+  }
+  .lix:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #979797;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    border-radius: 10px;
+  }
+
+/* sidebar */
+.sidebar {
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px rgba(138, 138, 138, 0.644);
+    text-align: center;
+}
+
+.sidebar__avatar {
+    height: 170px;
+    width: 170px;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.sidebar__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar__icon:hover {
+    transform: scale(1.1);
+}
+
+.sidebar__name {
+    font-family: 'Arial';
+    margin: 20px 0;
+    font-size: 1.7rem;
+}
+
+.sidebar__name>span {
+    color: #ffcc29;
+}
+
+.sidebar__item {
+    margin-bottom: 6px;
+    padding-top: 6px;
+    height: 40px;
+    font-size: 1.05rem;
+    border-radius: 30px;
+}
+
+.sidebar__title {
+    background-color: #f1f1f1;
+    border-radius: 30px;
+}
+
+.sidebar__contact {
+    background-color: #ffffff;
+    padding: 2px 0;
+    margin: 8px -15px;
+
+}
+
+.sidebar__location {
+    background-color: #ffffff;
+    padding: 3px;
+
+}
+
+.sidebar__email {
+    background-image: linear-gradient(to right bottom, #ffcc29, #ffcc29);
+
+    border-radius: 30px;
+    color: #fff;
+    margin: 15px 25px 0px;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+
+.sidebar__resume {
+    padding-top: 8px;
+    transition: all 1s linear;
+}
+
+.sidebar__email:hover {
+    transform: scale(1.05);
+    color: #000;
+}
+
+
+.sidebar__resume:hover {
+    background-color: #ffcc29;
+    color: #000;
+    box-shadow: 0 0 6px  rgba(43, 42, 42, 0.301);
+}
+
+@media(max-width:991px) {
+    .app__main-content {
+        margin: 30px 0;
+    }
+}
+
+
+
+/* navbar */
+
+.navbar__items {
+    display: flex;
+}
+
+.navbar__active {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    border-bottom: 4px solid#ffcc29;
+}
+
+.navbar__item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar__item:hover {
+    background: -webkit-linear-gradient(#ffcc29, #ffcc29);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+
+
+/* skill-card */
+.skill-card {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgba(43, 42, 42, 0.301);
+}
+
+.skill-card__icon {
+    width: 40px;
+    height: 40px;
+}
+
+.skill-card-body {
+    margin-left: 15px;
+
+}
+
+.skill_card__content {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6e7e91;
+}
+
+/* resume */
+
+.resume {
+    padding-top: 20px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.resume-card__heading,
+.reume-language__heading {
+    margin-left: 0px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.resume-card__body {
+    margin-top: 10px;
+    
+}
+
+.resume-card__title {
+    font-weight: 700;
+}
+
+.resume-card__name {
+    font-size: 16px;
+}
+
+.resume-card__details {
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+/* bar */
+.bar {
+    width: 90%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    box-shadow: 0 0 7px  rgba(43, 42, 42, 0.301);
+
+}
+
+.bar__icon {
+    width: 15px;
+    height: 15px;
+}
+
+.bar__wrapper {
+    background-image: linear-gradient(90deg, #ffcc29, #ffcc29);
+    border-radius: 20px;
+    padding: 4px 14px;
+    color: #000;
+    font-size: 0.9rem
+    
+}
+
+/* projects */
+.projects {
+    height: 70vh;
+    padding-top: 30px;
+    overflow-y: auto;
+}
+
+.projectCard__wrapper {
+    margin: 10px 0;
+    width: 100%;
+    height: 100%;
+    min-height: 160px;
+}
+
+.projectCard__image {
+    width: 100%;
+    height: 75%;
+    border-radius: 15px;
+    border: 3px solid#ffcc29;
+    transition: transform 0.3s linear;
+}
+
+.projectCard__image:hover {
+    transform: scale(1.05);
+}
+
+.projectCard__icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.projectCard__title {
+    margin-top: 12px;
+    font: size 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects__navbar {
+    display: flex;
+    margin-bottom: 5px;
+
+}
+@media only screen and (max-width: 991px) {
+    .projects__navbar {
+        display: none;
+        margin-bottom: 5px;
+    }
+}
+.projects__navbar>div {
+    margin: 0 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.projects__navbar-active {
+    color: #ffcc29;
+    text-decoration: underline 2px;
+    text-underline-offset: 3px;
+    text-decoration-color: #2e2e2e;
+}
+
+@media (max-width: 600px) {
+    .app__main-content {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .navbar__active {
+        font-size: 1.5rem;
+    }
+
+    .navbar__item {
+        font-size: 1rem;
+    }
+}
