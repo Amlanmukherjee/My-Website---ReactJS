@@ -35,7 +35,7 @@ const languages = [
     {
         icon: react,
         name: 'JavaScript',
-        level: '46'
+        level: '65'
     },
     {
         icon: react,
@@ -57,38 +57,28 @@ const languages = [
 const tools = [
     {
         icon: react,
-        name: 'Docker',
+        name: 'Airflow',
         level: '85'
     },
     {
         icon: react,
-        name: 'AWS',
+        name: 'GCP',
         level: '45'
     },
     {
         icon: react,
-        name: 'Adobe Photoshop',
+        name: 'GitHub',
         level: '90'
     },
     {
         icon: react,
-        name: 'Adobe Illustrator',
+        name: 'Nexla',
         level: '90'
     },
     {
         icon: react,
-        name: 'Adobe Animate',
+        name: 'Lucidchart',
         level: '80'
-    },
-    {
-        icon: react,
-        name: 'Adobe XD',
-        level: '60'
-    },
-    {
-        icon: react,
-        name: 'Figma',
-        level: '60'
     }
 
 ]
@@ -101,28 +91,18 @@ const Interpersonal = [
     },
     {
         icon: react,
-        name: 'Event Management',
-        level: '85'
+        name: 'Problem Solving',
+        level: '90'
+    },
+    {
+        icon: react,
+        name: 'Strategic Planning',
+        level: '92'
     },
     {
         icon: react,
         name: 'Leadership',
         level: '80'
-    },
-    {
-        icon: react,
-        name: 'Decision Making',
-        level: '90'
-    },
-    {
-        icon: react,
-        name: 'Problem Solving',
-        level: '70'
-    },
-    {
-        icon: react,
-        name: 'Strategic Planning',
-        level: '60'
     }
 
 ]
@@ -135,18 +115,18 @@ const Other = [
     },
     {
         icon: react,
-        name: 'Time management',
-        level: '75'
+        name: 'Time Management',
+        level: '95'
     },
     {
         icon: react,
-        name: 'Self confidence',
+        name: 'Self Confidence',
         level: '90'
     },
     {
         icon: react,
         name: 'Integrity',
-        level: '70'
+        level: '80'
     }
 
 ]

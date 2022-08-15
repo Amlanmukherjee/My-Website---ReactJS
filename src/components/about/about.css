@@ -3,6 +3,8 @@
 .about {
     padding: 20px;
     margin: -35px;
+    height: 600px;
+    overflow-y: auto;
 }
 
 .about__intro {
@@ -11,13 +13,15 @@
     margin: 10px 0;
 }
 
-/* .about__container {
+.about__container {
     background-color: #bba218;
     padding: 3px 1px;
-} */
+    overflow-y: hidden;
+
+}
 
 .about__heading {
-    font-size: 25px;
+    font-size: 1.563rem;
     font-weight: 700;
     color: #000;
     margin-left: 10px;

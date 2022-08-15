@@ -12,32 +12,59 @@ const skills = [
     {
         icon: data,
         title: "DATA ANALYSIS",
-        about: ["Data Cleaning ", <strong style={{ color: '#606060' }}>|</strong>, " Data Transformation ", <strong style={{ color: '#606060' }}>|</strong>, " EDA  Data Interpretation ", <strong style={{ color: '#606060' }}>|</strong>, " Data Visualization"]
+        about: [
+                <p className="skill_card__content">E.D.A</p>, <strong> </strong>,
+                <p className="skill_card__content">Data Transformation</p>, <strong> </strong>, 
+                <p className="skill_card__content">Data Interpretation</p>, <strong> </strong>, 
+                <p className="skill_card__content">Data Visualization</p>,  <strong> </strong>,
+                <p className="skill_card__content">Data Cleaning</p>, <strong> </strong>
+            ]
     },
     {
         icon: ml,
         title: "MACHINE LEARNING",
-        about: ["Feature Engineering ", <strong style={{ color: '#606060' }}>|</strong>, " Model Training ", <strong style={{ color: '#606060' }}>|</strong>, " Model- Testing ", <strong style={{ color: '#606060' }}>|</strong>, " Hyperparameter Tuning ", <strong style={{ color: '#606060' }}>|</strong>, " Prediction"]
+        about: [<p className="skill_card__content">Feature Engineering</p>, <strong> </strong>, 
+                <p className="skill_card__content">Model Training</p>, <strong> </strong>, 
+                <p className="skill_card__content">Model- Testing</p>, <strong> </strong>, 
+                <p className="skill_card__content">Hyperparameter Tuning</p>, <strong> </strong>, 
+                <p className="skill_card__content">Prediction</p>
+            ]
     },
     {
         icon: cloud,
         title: "CLOUD DEPLOYMENT",
-        about: [<strong style={{ color: '#606060' }}>AWS</strong>," CloudFormation ", <strong style={{ color: '#606060' }}>|</strong>," Elastic Beanstalk ", <strong style={{ color: '#606060' }}></strong>," CodeDeploy ", <strong style={{ color: '#606060' }}>|</strong>," ECS ", <strong style={{ color: '#606060' }}>|</strong>," EKS ", <strong style={{ color: '#606060' }}>|</strong>," OpsWorks "]
+        about: [<p className="skill_card__content">GCP</p>, <strong> </strong>,
+                <p className="skill_card__content">BigQuery</p>, <strong> </strong>,
+                <p className="skill_card__content">Cloud Shell</p>, <strong> </strong>,
+                <p className="skill_card__content">Compute Engine</p>, <strong> </strong>,
+            ]
     },
     {
         icon: frontend,
         title: "FRONTEND DEVELOPMENT",
-        about: ["HTML ", <strong style={{ color: '#606060' }}>|</strong>," CSS ", <strong style={{ color: '#606060' }}>|</strong>," JavaScript ", <strong style={{ color: '#606060' }}>|</strong>," Bootstrap ", <strong style={{ color: '#606060' }}>|</strong>," ReactJS ", " PHP "]
+        about: [<p className="skill_card__content">HTML</p>, <strong> </strong>,
+                <p className="skill_card__content">CSS</p>, <strong> </strong>,
+                <p className="skill_card__content">JavaScript</p>, <strong> </strong>,
+                <p className="skill_card__content">Bootstrap</p>, <strong> </strong>,
+                <p className="skill_card__content">ReactJS</p>,
+            ]
     },
     {
         icon: ux,
         title: "UI/UX DESIGNING",
-        about: ["Minimalistic ", <strong style={{ color: '#606060' }}>|</strong>," Cost Efficient ", <strong style={{ color: '#606060' }}>|</strong>," Adobe XD ", <strong style={{ color: '#606060' }}></strong>," Origami Studio ", <strong style={{ color: '#606060' }}>|</strong>," Framer ", <strong style={{ color: '#606060' }}>|</strong>," Figma "]
+        about: [<p className="skill_card__content">Minimalistic</p>, <strong> </strong>,
+                <p className="skill_card__content">Cost Efficient</p>, <strong> </strong>,
+                <p className="skill_card__content">Adobe XD</p>, <strong> </strong>,
+            ]
     },
     {
         icon: vector,
         title: "GRAPHICS DESIGNING/ VECTOR ART",
-        about: ["Latest Design Trends ", <strong style={{ color: '#606060' }}>|</strong>," Originals ", <strong style={{ color: '#606060' }}>|</strong>," Adobe Photoshop ", <strong style={{ color: '#606060' }}>|</strong>," Adobe Illustrator ", <strong style={{ color: '#606060' }}>|</strong>," Adobe Animate "]
+        about: [<p className="skill_card__content">Latest Design Trends</p>, <strong> </strong>,
+                <p className="skill_card__content">Originals</p>, <strong> </strong>,
+                <p className="skill_card__content">Adobe Photoshop</p>, <strong> </strong>,
+
+            ]
 
     },
 ]
