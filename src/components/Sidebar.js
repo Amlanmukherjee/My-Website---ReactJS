@@ -11,7 +11,7 @@ import facebook from '../assets/icons/facebook.svg'
 import instagram from '../assets/icons/instagram.svg'
 import github from '../assets/icons/github.svg'
 import cv_icon from '../assets/icons/cv_icon.svg'
-import mightycoder from '../assets/Layer.png'
+import mightycoder from '../assets/portfolio-dpr.png'
 import resume from '../assets/Amlan Mukherjee Resume.pdf'
 import { motion } from 'framer-motion'
 
@@ -43,7 +43,7 @@ const Sidebar = () => {
         >
             <img src={mightycoder} alt="avatar" className="sidebar__avatar" />
             <div className="sidebar__name">Amlan <span>Mukherjee</span> </div>
-            <div className="sidebar__item sidebar__title">Software Developer</div>
+            <div className="sidebar__item sidebar__title">Data Engineer</div>
             <a href={resume} download="Amlan's Resume.pdf">
                 <div className="sidebar__item sidebar__resume">
                     <img src={cv_icon} alt="resume" className="sidebar__icon" />Download Resume

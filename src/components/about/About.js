@@ -4,7 +4,7 @@ import React from 'react';
 import Skillcard from './../Skillcard';
 import { motion } from 'framer-motion'
 import skills from './../data/about_data'
-import './about.css'
+import './../../index.css'
 import face from './face.png'
 
 
@@ -41,7 +41,7 @@ const About = () => {
             {/* <div style={{paddingBottom: 40}}></div> */}
             <div className="container about__container">
                 <h6 className="about__heading">Things I do . . .</h6>
-                <div className="row" style={{overflow: "hidden"}}>
+                <div className="row">
                     {
                         skills.map(skill =>
                             <Skillcard skill={skill} />
